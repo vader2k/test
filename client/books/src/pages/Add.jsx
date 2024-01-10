@@ -35,7 +35,7 @@ const Add = () => {
   console.log(book)
   return (
     <div className="form">
-      <h1>Add New Book</h1>
+      <h1>Add A New Book</h1>
       <input type="text" placeholder="title" name="title" onChange={handleChange}/>
       <input type="text" placeholder="description" name="desc" onChange={handleChange}/>
       <input type="text" placeholder="cover" name="cover" onChange={handleChange}/>
